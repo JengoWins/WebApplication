@@ -1,0 +1,192 @@
+body{
+    background-color: darkslateblue;
+}
+
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    background: white;
+    padding: 30px 20px;
+    box-shadow: 0 30px 30px 0 black;
+}
+
+.buttons{
+    margin: 50px 0 50px 0;
+}
+
+.buttons a{
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #d0ffcd;
+    transition: all 0.5s;
+    padding: 10px;
+    border: 2px solid #272727;
+    text-align: right;
+    right: 0;
+    margin: 0 10px;
+}
+
+.Sillet{
+    width: 80%;
+    background-color: darkgray;
+    padding: 7px;
+}
+
+#Exit{
+    margin-left: 400px;
+}
+
+.buttons a:hover{
+   background-color: brown;
+    border: 2px solid #c0c0c0;
+}
+
+h2{
+    margin-top: 35px;
+}
+
+.profit{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    display: flex;
+    margin-top: 15px;
+}
+.profit .Images{
+    width: 25%;
+    height: auto;
+}
+
+.profit .Images img{
+     width: 280px;
+     height: 300px;
+    text-align: center;
+ }
+
+.profit .Text {
+    width: 75%;
+    height: auto;
+}
+
+.Role_Pol{
+    color: #37a2fc;
+}
+
+.Role_Admin{
+    color: #ea11fc;
+}
+
+.profit .Text p{
+    margin: 12px 0;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.but{
+    width: 100px;
+    height: 40px;
+    background-color: #d0ffcd;
+    transition: all 0.5s;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 35px;
+}
+
+.but:hover{
+    background-color: #32c0d0;
+}
+
+.Aa{
+    display: flex;
+}
+
+
+.ClassBut {
+    width: 100%;
+    height: auto;
+}
+
+.ClassBut button{
+    margin: 0 20px;
+    float: left;
+}
+
+.Info{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: silver;
+    border: 2px solid black;
+    display: flex;
+}
+
+.BlockOne{
+    width: 65%;
+    height: auto;
+}
+
+.BlockTwo{
+    width: 35%;
+    height: auto;
+}
+
+.Zav{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.statusNo{
+    color: red;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.statusYes{
+    color: green;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.Zav select{
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.Zav .Redactor{
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -20px;
+}
+
+.Text_Info{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Text_Info .ImgInfos{
+    width: 45%;
+    height: auto;
+}
+
+.Text_Info .ImgInfos img{
+    width: 300px;
+    height: 250px;
+}
+
+.Text_Info .TextInfos{
+    width: 50%;
+    height: auto;
+}

@@ -1,0 +1,380 @@
+.MainComp{
+    width: 100%;
+    height: 1700px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.gif); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    /* путь относительно html-документа */
+}
+
+.MainComps{
+    position: absolute;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 120px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: auto;
+    font-size: 1.2em;
+    opacity: 0.96;
+}
+
+.FonAbsolute{
+    position: absolute;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.FonAbsolute img{
+    width: 90%;
+    height: 1650px;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    /*background: #e3dddd;*/
+    display: flex;
+    margin: 0 auto;
+    border-bottom: black 2px solid;
+}
+
+
+.buton{
+    width: 70%;
+    height: auto;
+}
+.buton a{
+    padding: 10px;
+    text-decoration: none;
+    /*background: #e3dddd;*/
+    color: rgb(0, 0, 0);
+    float: left;
+    left: 0;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+
+.buton a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(47, 165, 165);
+}
+
+.entrance{
+    width: 30%;
+    height: auto;
+}
+
+.entrance img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    right: 0px;
+    margin: 0 5px;
+}
+
+.entrance p{
+    float: right;
+    right: 0px;
+    margin: 10px 5px;
+}
+
+.entrance a{
+    padding: 10px;
+    text-decoration: none;
+    /*background: #e3dddd;*/
+    color: rgb(0, 0, 0);
+    float: right;
+    right: 0px;
+    transition: all 0.5s;
+}
+
+.entrance a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(47, 165, 165);
+}
+
+.MainPanel{
+    width: 100%;
+    margin: 30px auto;
+    background: white;
+    height: auto;
+    display: flex;
+}
+
+.MainPanel .mainContainerBlock{
+    width: 85%;
+    height: auto;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar>* {
+    flex: 1 1 33.3%;
+  }
+
+.MainPanel .Filters{
+    width: 15%;
+    height: auto;
+    border-left: black 2px solid;
+}
+.MainPanel .Filters .container {    
+    flex-wrap: wrap; /* разрешить карточкам переносится на следующий ряд */
+    justify-content: flex-start; /* расположение элементов слева направо */
+    margin: 0 -15px; /* задаем отрицательные боковые отступы */
+    margin-bottom: 10px;
+}    
+
+.MainPanel .Filters .container {    
+    flex-wrap: wrap; /* разрешить карточкам переносится на следующий ряд */
+    justify-content: flex-start; /* расположение элементов слева направо */
+    margin: 0 -15px; /* задаем отрицательные боковые отступы */
+    margin-bottom: 10px;
+}   
+
+.MainPanel .Filters h3{
+    margin: 0 auto;
+}
+
+.MainPanel .Filters .container .card {
+    width: 130px; 
+    margin: 15px; /* отступы между карточек */
+    height: 30px; /* высота карточки */
+    color: white; /* цвет текста */
+    transition: all 0.5s;
+    background-color: #7a9850;/* временное подсвечивание карточек */
+}
+  
+.MainPanel .Filters .container .card:hover {
+    background-color: rgb(47, 165, 165);/* временное подсвечивание карточек */
+}
+
+.MainPanel .Filters .container .card p{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+}  
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip{
+    width: 100%;
+    height: auto;
+    border: 2px black solid;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip button{
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    color: white; /* цвет текста */
+    transition: all 0.5s;
+    background-color: #7a9850;/* временное подсвечивание карточек */
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip button:hover{
+    background-color: rgb(47, 165, 165);/* временное подсвечивание карточек */
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip button{
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    background-color: #7a9850;/* временное подсвечивание карточек */
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip h4 h5{
+    text-align: center;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip img{
+    width: 300px;
+    height: 220px;
+    margin: 10px;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip .Descript{
+    display: flex;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip .Descript p{
+    text-align: justify;
+}
+
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip .Descript .Charact{
+    width: 50%;
+    height: auto;
+}
+.MainPanel .mainContainerBlock .ContainerTovar .ContainerShip .Descript .Status{
+    width: 50%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    /*background: #e3dddd;*/
+    display: flex;
+    border-top: black 2px solid;
+}
+
+.phone{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    margin: 20px;
+}
+
+.phone p{
+    margin: 10px auto;
+}
+
+.score{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    margin: 20px;
+}
+
+.cloud{
+    margin: 10px;
+}
+
+.score .cloud img{
+    width: 50px;
+    height: 45px;
+    margin: 0 10px;
+}
+
+.score .cloud a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.score .cloud a:hover{
+    margin-top: 10px;
+    color: rgb(47, 165, 165);
+}
+
+.score .cloud a{
+    margin-top: 10px;
+}
+
+.score .cloud{
+    display: flex;
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .buton a{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .buton a{
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .Logo img{
+        width: 125px;
+        height: 125px;
+    }
+    .entrance a {
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    .Logo{
+        width: 15%;
+        height: auto;
+        text-align: center;
+    }
+
+    .entrance{
+        width: 35%;
+    }
+
+    .buton{
+        width: 50%;
+        height: auto;
+    }
+    .Zav{
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    body{
+        font-size: 1em;
+    }
+
+    .phone{
+       width: 50%;
+    }
+    .score {
+        width: 70%;
+    }
+    .Zav{
+        width: 85%;
+    }
+
+    header{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .Logo{
+        width: 100%;
+    }
+
+    .buton{
+        width: 100%;
+        height: 60px;
+    }
+
+    .entrance{
+        width: 100%;
+        height: 60px;
+    }
+    .buton a{
+        margin:  5px 10px;
+        padding: 20px;
+        float: none;
+    }
+
+    .entrance a{
+        margin: 5px 10px;
+        padding: 20px;
+        float: none;
+    }
+
+    .Info{
+        flex-direction: column;
+    }
+
+    .Info .BlockOne{
+        width: 100%;
+    }
+
+    .Info .BlockTwo{
+        width: 100%;
+    }
+}
+

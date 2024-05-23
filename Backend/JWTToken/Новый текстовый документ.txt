@@ -1,0 +1,30 @@
+{dataShip.map((item, index) => (
+            //<li key={index}>{`${item.name}`}</li>
+            <div key={index} className="ContainerShip">
+                <h4>{item.name}</h4>
+                <div className="imgShip">
+                    <img src="../src/img/imgGame/Шлюп.png" alt="" />
+                </div>
+                <div className="Descript">
+                    <div className="Charact">
+                        <h5>Характеристики</h5>
+                        <p>Прочность: {item.Health}</p>
+                        <p>Скорость: {item.Speed}</p>
+                        <p>Состав команды: {item.TeamCrew}</p>
+                    </div>
+                    <div className="Status">
+                        <h5>Вооружение</h5>
+                    <p>Тяжелые пушки: {item.HeavyWeapon}</p>
+                    <p>Срдение пушки: {item.MediumWeapon}</p>
+                    <p>Легкие пушки: {item.LightWeapon}</p>
+                    </div>
+                </div>
+                <div className="Price">
+                    <p>Цена: {item.price}</p>
+                </div>
+                <button>Купить</button>
+    </div>
+          ))}
+              </div>) : (
+        'no data'
+      )}

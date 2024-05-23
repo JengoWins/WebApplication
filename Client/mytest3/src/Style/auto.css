@@ -1,0 +1,88 @@
+.Autorize{
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.gif); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/* Выравнивание всех блоков по вертикали*/
+.BlockAuto{
+    background:#e3dddd;
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10%;
+    border: 2px black solid;
+    margin: 300px auto;
+}
+
+/* Стилизация ссылок на вход/рег. Изменён цвет,отступы,убрана черта. Добавлена анимация при наведение*/
+
+.Form-a
+{
+    margin-top: 25px;
+}
+
+.Form-a h2
+{
+    padding-bottom: 10px;
+}
+/*Настройка ссылки регистрации аналогичной вход/рег*/
+
+.NavMenuBlock{
+    margin: 0;
+    float: right;
+}
+
+.NavMenuBlock a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: #7a9850;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.NavMenuBlock a:hover
+{
+    color: rgb(255, 255, 255);
+    background: #030303;
+}
+
+.Form-a
+{
+    padding-right: 20px;
+}
+.Form-a input[type=text], form input[type=password] , form input[type=email]
+{
+    width:100%;
+    height: 40px;
+    margin-bottom:10px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+
+/*Ширина и Высота кнопки больше стандартного. Добавлены отступы. Убрана рамка кнопки и сделано небольшое округление. При наведении, происходит плавная анимация на пол секунды. */
+.BlockAuto .button{
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px;
+    transition:  all 0.5s;
+    background: rgb(103, 234, 228);
+}
+
+/*При наведении увеличивается объём кнопки, добавляется тень, изменяется цвет кнопки. */
+.BlockAuto .button:hover{
+    width: 115px;
+    height: 35px;
+    background-color: DeepSkyBlue;
+    box-shadow: 0 0 10px 0 black;
+}
