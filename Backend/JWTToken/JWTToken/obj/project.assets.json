@@ -74,6 +74,15 @@
           }
         }
       },
+      "EasyEncryption/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/EasyEncryption.dll": {}
+        },
+        "runtime": {
+          "lib/EasyEncryption.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -1948,6 +1957,20 @@
         "lib/netstandard1.3/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "EasyEncryption/1.0.2": {
+      "sha512": "Rs/YqbsOAscUbx8zVfhqp22P73oFJyQNcrVr/6dhs2xwQ3H+JgBCo7GIyybJ4b3s5vNzrC1bO7YtnocnC4Gqqg==",
+      "type": "package",
+      "path": "easyencryption/1.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easyencryption.1.0.2.nupkg.sha512",
+        "easyencryption.nuspec",
+        "lib/EasyEncryption.dll",
+        "tools/init.ps1"
       ]
     },
     "EntityFramework/6.4.4": {
@@ -5033,6 +5056,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "EasyEncryption >= 1.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
       "Patika.Framework.Identity.JwtToken >= 7.0.2.3",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0"
@@ -5082,6 +5106,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "EasyEncryption": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -5119,5 +5147,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"EasyEncryption 1.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "EasyEncryption",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\typescript\\TypeScript\\JWTToken\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|d:\\typescript\\typescript\\jwttoken\\jwttoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\searchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\searchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\shablontemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\shablontemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +15,28 @@
       "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\mysqlapplicationcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\mysqlapplicationcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\shablontemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\shablontemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\mysqlapplicationcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\mysqlapplicationcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\jwttoken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\jwttoken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|D:\\typescript\\TypeScript\\JWTToken\\jwttoken\\classes\\searchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA48EC3-BAFF-45A8-A634-A81EB3625418}|JWTToken\\JWTToken.csproj|solutionrelative:jwttoken\\classes\\searchaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,37 +46,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchAccount.cs",
-              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\SearchAccount.cs",
-              "RelativeDocumentMoniker": "JWTToken\\Classes\\SearchAccount.cs",
-              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\SearchAccount.cs",
-              "RelativeToolTip": "JWTToken\\Classes\\SearchAccount.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAqwDUAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Program.cs",
+              "RelativeDocumentMoniker": "JWTToken\\Program.cs",
+              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Program.cs",
+              "RelativeToolTip": "JWTToken\\Program.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAUwIQAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T19:05:51.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MySqlApplicationcs.cs",
-              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\MySqlApplicationcs.cs",
-              "RelativeDocumentMoniker": "JWTToken\\Classes\\MySqlApplicationcs.cs",
-              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\MySqlApplicationcs.cs",
-              "RelativeToolTip": "JWTToken\\Classes\\MySqlApplicationcs.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:47:23.773Z",
+              "WhenOpened": "2024-04-16T04:05:29.808Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "JWTToken.csproj",
+              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\JWTToken.csproj",
+              "RelativeDocumentMoniker": "JWTToken\\JWTToken.csproj",
+              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\JWTToken.csproj",
+              "RelativeToolTip": "JWTToken\\JWTToken.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-08T18:14:36.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchAccount.cs",
+              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\SearchAccount.cs",
+              "RelativeDocumentMoniker": "JWTToken\\Classes\\SearchAccount.cs",
+              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\SearchAccount.cs",
+              "RelativeToolTip": "JWTToken\\Classes\\SearchAccount.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:05:51.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MySqlApplicationcs.cs",
+              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\MySqlApplicationcs.cs",
+              "RelativeDocumentMoniker": "JWTToken\\Classes\\MySqlApplicationcs.cs",
+              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\MySqlApplicationcs.cs",
+              "RelativeToolTip": "JWTToken\\Classes\\MySqlApplicationcs.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAewA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:47:23.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\appsettings.json",
               "RelativeDocumentMoniker": "JWTToken\\appsettings.json",
@@ -84,46 +112,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ShablonTemplate.cs",
               "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\ShablonTemplate.cs",
               "RelativeDocumentMoniker": "JWTToken\\Classes\\ShablonTemplate.cs",
               "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\ShablonTemplate.cs",
               "RelativeToolTip": "JWTToken\\Classes\\ShablonTemplate.cs",
-              "ViewState": "AQIAAKsAAAAAAAAAAAAAAL8AAAAFAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAowLIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:39:35.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:39:35.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TestClass.cs",
               "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\TestClass.cs",
               "RelativeDocumentMoniker": "JWTToken\\Classes\\TestClass.cs",
               "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\TestClass.cs",
               "RelativeToolTip": "JWTToken\\Classes\\TestClass.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwEkAAAAAAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAywE8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T15:09:06.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\Person.cs",
               "RelativeDocumentMoniker": "JWTToken\\Classes\\Person.cs",
               "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\Person.cs",
               "RelativeToolTip": "JWTToken\\Classes\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T15:08:54.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T15:08:54.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "AuthOptions.cs",
               "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Classes\\AuthOptions.cs",
               "RelativeDocumentMoniker": "JWTToken\\Classes\\AuthOptions.cs",
@@ -131,21 +157,7 @@
               "RelativeToolTip": "JWTToken\\Classes\\AuthOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T04:05:29.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Program.cs",
-              "RelativeDocumentMoniker": "JWTToken\\Program.cs",
-              "ToolTip": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\Program.cs",
-              "RelativeToolTip": "JWTToken\\Program.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAAAIcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T04:05:29.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T04:05:29.54Z"
             }
           ]
         }

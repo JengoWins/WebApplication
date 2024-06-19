@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "JWTToken/1.0.0": {
         "dependencies": {
+          "EasyEncryption": "1.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
           "Patika.Framework.Identity.JwtToken": "7.0.2.3",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
@@ -64,6 +65,14 @@
           "lib/netstandard2.0/Dapper.dll": {
             "assemblyVersion": "1.50.5.0",
             "fileVersion": "1.50.5.0"
+          }
+        }
+      },
+      "EasyEncryption/1.0.2": {
+        "runtime": {
+          "lib/EasyEncryption.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1000,6 +1009,13 @@
       "sha512": "sha512-1vPpX7WQmQCIb7rwlGOUoVs/yWZhVKvdhuG7WrJV+V+qsP8btnrrCqVWHENAlJxBAnUw5rhWfmuba9/Egei9MA==",
       "path": "dapper/1.50.5",
       "hashPath": "dapper.1.50.5.nupkg.sha512"
+    },
+    "EasyEncryption/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rs/YqbsOAscUbx8zVfhqp22P73oFJyQNcrVr/6dhs2xwQ3H+JgBCo7GIyybJ4b3s5vNzrC1bO7YtnocnC4Gqqg==",
+      "path": "easyencryption/1.0.2",
+      "hashPath": "easyencryption.1.0.2.nupkg.sha512"
     },
     "EntityFramework/6.4.4": {
       "type": "package",

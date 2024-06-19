@@ -1,3 +1,4 @@
+import { Token } from "../../Redux/Auth";
 import { Ship } from "./MainPage";
 
 export function FormLoadBlock(Ships:Ship,index:number): string {
@@ -59,12 +60,17 @@ export function FormLoadBlockMap(Ships:Ship) {
     )
 }
 
+var tokenKey = "accessToken";
+
 export async function AddBasket(str: string) {
+    const data = sessionStorage.getItem(tokenKey)!;
+    let obj: Token = JSON.parse(data);
     const response = await fetch("https://localhost:7249/AddShipBasket", {
         method: "POST",
         headers: { "Accept": "application/json", "Content-Type": "application/json" },
         body: JSON.stringify({
-            name: str
+            nameShip: str,
+            nameUser: obj.username
       })
     });
     if (response.ok === true) {
@@ -77,34 +83,3 @@ export async function AddBasket(str: string) {
       console.log(str);
       }
 }
-
-
-/*
-
-
- var block = " <div class='ContainerShip'>"+
-    "<h4 id='NameShip'>"+Ships.name+"</h4>"+
-    "<div class='imgShip'>"+
-       "<img src='../src/img/imgGame/Шлюп.png' />"+
-    "</div>"+
-    "<div class='Descript'>"+
-        "<div class='Charact'>"+
-            "<h5>Характеристики</h5>"+
-            "<p>Прочность: "+Ships.health+"</p>"+
-            "<p>Скорость: "+Ships.speed + "</p>"+
-            "<p>Состав команды: "+Ships.teamCrew+"</p>"+
-        "</div>"+
-        "<div class='Status'>"
-            +"<h5>Вооружение</h5>"+
-        "<p>Тяжелые пушки: " +Ships.heavyWeapon+"</p>"+
-        "<p>Срдение пушки: " +Ships.mediumWeapon+"</p>"+
-        "<p>Легкие пушки: " +Ships.lightWeapon+"</p>"+
-        "</div>"+
-    "</div>"+
-    "<div class='Price'>"+
-        "<p>Цена: " +Ships.price+"</p>"
-    +"</div>"+
-    "<button id='NameShip'>В корзину</button>"+
-"</div>";
-
-*/

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+T/BVjhhxFxLWxBNGqGdc1OsX0uxwPwC4VwNifyHqbg398FU+982SvO/9xwDURznljX+H/Yvs1geXjCJvAcAGw==",
+  "dgSpecHash": "F0pxHvHnSwp4dqWVczut1VOeUNuJ6l8C6faHAFYy6qYm96SPZwPyjL3a6pI2umTAPXcnwtg9LGU4V9sbqGAhKg==",
   "success": true,
   "projectFilePath": "D:\\typescript\\TypeScript\\JWTToken\\JWTToken\\JWTToken.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Алексей\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
+    "C:\\Users\\Алексей\\.nuget\\packages\\easyencryption\\1.0.2\\easyencryption.1.0.2.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\expressionextensionsql\\1.2.7\\expressionextensionsql.1.2.7.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\expressionextensionsql.dapper\\1.2.3\\expressionextensionsql.dapper.1.2.3.nupkg.sha512",
@@ -105,5 +106,16 @@
     "C:\\Users\\Алексей\\.nuget\\packages\\westwind.utilities\\4.0.6.1\\westwind.utilities.4.0.6.1.nupkg.sha512",
     "C:\\Users\\Алексей\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"EasyEncryption 1.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "EasyEncryption",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

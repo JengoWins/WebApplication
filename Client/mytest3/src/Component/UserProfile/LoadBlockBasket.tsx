@@ -1,3 +1,4 @@
+import { Token } from "../../Redux/Auth";
 import { Ship } from "../Main/MainPage";
 
 
@@ -31,12 +32,17 @@ export function FormLoadBasket(Ships:Ship) {
     )
 }
 
+var tokenKey = "accessToken";
+
 export async function DeleteBasket(str: string) {
+    const data = sessionStorage.getItem(tokenKey)!;
+    let obj: Token = JSON.parse(data);
     const response = await fetch("https://localhost:7249/DeleteShipBasket", {
         method: "DELETE",
         headers: { "Accept": "application/json", "Content-Type": "application/json" },
         body: JSON.stringify({
-            name: str
+            nameShip: str,
+            nameUser: obj.username
       })
     });
     if (response.ok === true) {
@@ -53,3 +59,27 @@ export async function DeleteBasket(str: string) {
 export async function ExitAccount(){
     sessionStorage.clear();
 }
+
+
+export async function AddInGame(price:number){
+    const data = sessionStorage.getItem(tokenKey)!;
+    let obj: Token = JSON.parse(data);
+    const response = await fetch("https://localhost:7249/ShipBasketInGame", {
+        method: "DELETE",
+        headers: { "Accept": "application/json", "Content-Type": "application/json" },
+        body: JSON.stringify({
+            PriceTotal: price,
+            nameUser: obj.username
+      })
+    });
+    if (response.ok === true) {
+        console.log("Status: ", response.status);
+        console.log("Status: ", "Cъела рыбка");
+      }
+      else { 
+        console.log("Status: ", response.status);
+        console.log("Status: ", "Не клюет");
+      console.log(price);
+      }
+}
+

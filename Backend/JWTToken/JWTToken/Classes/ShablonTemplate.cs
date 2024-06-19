@@ -20,7 +20,6 @@ namespace WebShablon2.Classes
             date = time;
             this.pass = pass;
         }
-
         public void Manipulate()
         {
             Сheck();
@@ -66,9 +65,6 @@ namespace WebShablon2.Classes
             {
                 using (MySqlApplicationcs db = new())
                 {
-                    //MySqlParameter parametr = new MySqlParameter ("@n", name);
-                    //MySqlParameter parametr2 = new MySqlParameter ("@n2", lastname );
-                    //MySqlParameter parametr3 = new MySqlParameter ("@n3", firstname );
                     int countUser = db.formregistration.FromSqlRaw("Select * from formregistration where name={0} and lastname={1} and firstname={2}", name, lastname, firstname).Count();
                     if (countUser == 0)
                     {
@@ -93,7 +89,7 @@ namespace WebShablon2.Classes
             Console.WriteLine("Фамилия: " + lastname);
             Console.WriteLine("Отчество: " + firstname);
         }
-        public Formregistration ReturnDate()
+        public Formregistration ReturnData()
         {
             return new Formregistration { firstname = firstname, name = name, lastname = lastname, password = null, date = new DateTime() };
         }
@@ -152,17 +148,18 @@ namespace WebShablon2.Classes
 
     class FormatPassword : ManipulationDate
     {
-        bool isInt;
-        int? NewPass;
+        //bool isInt;
+        object NewPass;
         public FormatPassword(string fn, DateTime time, string pass) : base(fn, time, pass){}
         public override void Сheck()
         {
             Console.WriteLine("Проверяем...");
-            isInt = pass.All(char.IsDigit);
+           //isInt = pass.All(char.IsDigit);
         }
         public override void AdapdationFormat()
         {
             Console.WriteLine("Форматируем...");
+            /*
             if (isInt)
                 NewPass = Convert.ToInt32(pass);
             else
@@ -171,6 +168,9 @@ namespace WebShablon2.Classes
                 for (int i = 0; i < numbers.Length; i++)
                     NewPass = Convert.ToInt32(numbers[i]);
             }
+            */
+            var Hasing = EasyEncryption.MD5.ComputeMD5Hash(pass);
+            NewPass = Hasing;
         }
 
         public override void InsertToDataBase()
@@ -185,7 +185,7 @@ namespace WebShablon2.Classes
             Console.WriteLine("Документируем...");
             Console.WriteLine("Пароль: " + NewPass);
         }
-        public int? ReturnPass()
+        public object? ReturnPass()
         {
             return NewPass;
         }

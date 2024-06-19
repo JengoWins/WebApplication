@@ -203,3 +203,4 @@ D:\typescript\TypeScript\JWTToken\JWTToken\bin\Debug\net7.0\Microsoft.Extensions
 D:\typescript\TypeScript\JWTToken\JWTToken\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\typescript\TypeScript\JWTToken\JWTToken\bin\Debug\net7.0\MySqlConnector.dll
 D:\typescript\TypeScript\JWTToken\JWTToken\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\typescript\TypeScript\JWTToken\JWTToken\bin\Debug\net7.0\EasyEncryption.dll

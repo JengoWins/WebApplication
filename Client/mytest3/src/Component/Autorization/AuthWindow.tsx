@@ -1,7 +1,4 @@
-//import FloatingLabel from 'react-bootstrap/FloatingLabel';
-//import Form from 'react-bootstrap/Form';
-//import { useAppDispatch } from '../../Redux/Hooks';
-/*import { Button } from 'react-bootstrap';*/
+
 import { login } from "../../Redux/Auth";
 import { useAppDispatch } from "../../Redux/Hooks";
 import { Autorization } from "./AuthForm";

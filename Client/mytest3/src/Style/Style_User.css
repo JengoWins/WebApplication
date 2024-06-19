@@ -173,7 +173,7 @@ h2{
     background-color: rgb(47, 165, 165);/* временное подсвечивание карточек */
 }
 
-.Complete{
+.Complete button {
     color: rgb(255, 255, 255);
     width: 150px;
     transition: all 0.5s;
@@ -181,6 +181,29 @@ h2{
     background-color: #7a9850;/* временное подсвечивание карточек */
 }
 
-.Complete:hover{
+.Complete button:hover{
     background-color: rgb(47, 165, 165);/* временное подсвечивание карточек */
+}
+
+.modal-Price{
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.modal-Price button{
+    color: rgb(255, 255, 255);
+    width: 150px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    margin: 0 5px;
+    background-color: #7a9850;/* временное подсвечивание карточек */
+}
+
+.modal-Price #AddInGame:hover{
+    background-color: rgb(47, 165, 165);/* временное подсвечивание карточек */
+}
+
+.modal-Price #CloseInGame:hover{
+    background-color: rgb(165, 47, 47);
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Lab13.models;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebAppLab11.Classes
@@ -11,7 +12,10 @@ namespace WebAppLab11.Classes
         public required string firstname { get; set; }
         public required DateTime date { get; set; }
 
-        public required int? password { get; set; }
+        public byte[] photo { get; set; }
+        public string phone { get; set; }
+        public string city { get; set; }
+        public required string? password { get; set; }
     }
     public class Ships
     {
@@ -62,7 +66,20 @@ namespace WebAppLab11.Classes
         public int id { get; set; }
         [ForeignKey("id_Ship")]
         public int id_Ship { get; set; }
-        //public Ships ships { get; set; }
+        [ForeignKey("id_User")]
+        public int id_User { get; set; }
+    }
+
+    public class BasketAdd
+    {
+        public string nameShip { get; set; }
+        public string nameUser { get; set; }
+    }
+
+    public class BasketInGame
+    {
+        public int PriceTotal { get; set; }
+        public string nameUser { get; set; }
     }
 
     public class ModelToken
